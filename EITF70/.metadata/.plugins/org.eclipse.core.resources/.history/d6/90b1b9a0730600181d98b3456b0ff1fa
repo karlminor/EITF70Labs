@@ -1,0 +1,517 @@
+/* setup
+char b;
+int main() {
+	b=9;
+	while(1==1) {
+		if(b<10){
+			b--;
+		}
+	}
+	return 0;
+}
+*/
+
+/* assignment 1
+unsigned char b;
+int main() {
+	b=9;
+	while(1==1) {
+		if(b<10){
+			b--;
+		}
+	}
+	return 0;
+}
+*/
+
+/* assignment 2
+int b;
+int main() {
+	b=9;
+	while(1==1) {
+		if(b<10){
+			b--;
+		}
+	}
+	return 0;
+}
+*/
+
+/* assignment 3
+unsigned int b;
+int main() {
+	b=9;
+	while(1==1) {
+		if(b<10){
+			b--;
+		}
+	}
+	return 0;
+}
+*/
+
+/* assignment 4
+char b[10];
+int main() {
+	int i;
+	while(1==1) {
+		for(i=0;i<10;i++){
+			b[i]=i;
+		}
+	}
+	return 0;
+}
+*/
+
+/* assignment 5
+int b[10];
+int main() {
+	int i;
+	while(1==1) {
+		for(i=0;i<10;i++){
+			b[i]=i;
+		}
+	}
+	return 0;
+}
+*/
+
+/* assignment 6
+char *address;
+char b;
+int main(){
+	b=0;
+	address = &b;
+	*address = 5;
+	while(1==1){}
+	return 0;
+}
+*/
+
+/* assignment 7
+char *address;
+int b;
+int main(){
+	b=0XFFFFFFF;
+	address = (char *)&b+3;
+	*address += 0xF0;
+	while(1==1){}
+	return 0;
+}
+*/
+
+/* assignment 8
+#include "address_mapping.h"
+
+unsigned int state;
+unsigned int counter;
+int main() {
+	*SWITCHES_CONTROL=0xFFFF;
+	*LED_CONTROL=0x0;
+	counter=10;
+	while(1==1){
+		while(counter>=0){
+			state=*SWITCHES_DATA;
+			*LED_DATA=counter;
+			counter--;
+		}
+	}
+}
+*/
+
+/* assignment 9
+#include "address_mapping.h"
+
+unsigned int state;
+int main() {
+	*SWITCHES_CONTROL=0xFFFF;
+	*LED_CONTROL=0x0;
+	*LED_DATA=10;
+	while(1==1){
+		while(*LED_DATA>=0){
+			state=*SWITCHES_DATA;
+			*LED_DATA=*LED_DATA-1;
+		}
+	}
+}
+*/
+
+/* assignment 10
+#include "address_mapping.h"
+
+unsigned int state;
+int main() {
+	*SWITCHES_CONTROL=0xFFFF;
+	*LED_CONTROL=0x0;
+	*LED_DATA=10;
+	while(1==1){
+		state=*SWITCHES_DATA;
+		*SWITCHES_DATA=0xFFFF;
+		*LED_DATA=*SWITCHES_DATA;
+	}
+}
+*/
+
+/* assignment 11
+#include "address_mapping.h"
+
+int main() {
+	*SWITCHES_CONTROL=0xFFFF;
+	*LED_CONTROL=0x0;
+	*LED_DATA=0;
+	while(1==1){
+		*LED_DATA=*SWITCHES_DATA;
+	}
+}
+*/
+
+/*#include "address_mapping.h"
+
+int state, *pointer;
+
+int main() {
+	*SWITCHES_CONTROL=0xFFFF;
+	*LED_CONTROL=0x0;
+	*LED_DATA=0;
+	while(1==1){
+		state = *SWITCHES_DATA;
+		int switchesOn = 0;
+		for(int i = 0; i < 16; i++) {
+			if(((state>>i) & 1) == 1) {
+				switchesOn++;
+			}
+		}
+		int display = 1;
+		display = (display<<switchesOn)-1;
+
+		*LED_DATA = display;
+	}
+}
+*/
+
+//LAB 2:
+
+/*unsigned int *LED_1;
+unsigned int value;
+int i;
+int main() {
+	LED_1 = (unsigned int *) 0x44A00000;
+	while (1 == 1) {
+		value = 1;
+		for (i = 1; i < 32; i++) {
+			*LED_1 = value;
+			value = value << 1;
+		}
+	}
+}
+*/
+/* Assignment 3
+#include "displays.h"
+unsigned char i;
+int main() {
+	while (1 == 1) {
+		for (i = 0; i < 10; i++)
+			displayDigitAtIndex(i % 8, i);
+	}
+}
+*/
+/*
+#include "displays.h"
+int main()
+{
+	while (1==1){
+		displayNumber(12345678);
+		resetDisplays();
+		displayNumber(11111111);
+		resetDisplays();
+		displayNumber(123456789);
+	}
+}
+*/
+/*
+#include "displays.h"
+int main()
+{
+	while (1==1){
+		displayNumberAtIndex(3,55555);
+		resetDisplays();
+		displayNumberAtIndex(7,1);
+		resetDisplays();
+		displayNumberAtIndex(0,88888888);
+		resetDisplays();
+		displayNumberAtIndex(6, 333);
+	}
+}
+*/
+
+/*#include "buttons.h"
+unsigned int state;
+int main()
+{
+	*BUTTONS_CONTROL=0xFFFFFFFF;
+	while (1==1)
+	{
+		state=*BUTTONS_DATA;
+	}
+}*/
+
+/*#include "buttons.h"
+#include "displays.h"
+unsigned int counter;
+int main() {
+	*BUTTONS_CONTROL = 0xFFFFFFFF;
+	counter = 99990000;
+	while (1 == 1) {
+		resetDisplays();
+		displayNumber(counter);
+		while (*BUTTONS_DATA == 0)
+			;	//keep reading the data register
+		if (*BUTTONS_DATA == UP)
+			counter++;
+		if (*BUTTONS_DATA == DOWN)
+			counter--;
+	}
+}*/
+
+/*#include "buttons.h"
+#include "displays.h"
+unsigned int counter;
+unsigned int buttons_state;
+int main() {
+	*BUTTONS_CONTROL = 0xFFFFFFFF;
+	counter = 0;
+	while (1 == 1) {
+		resetDisplays();
+		displayNumber(counter);
+		while (*BUTTONS_DATA == 0);	//keep reading the data register
+		buttons_state = *BUTTONS_DATA;
+		if (buttons_state == UP)
+			counter++;
+		if (buttons_state == DOWN)
+			counter--;
+		while (*BUTTONS_DATA == buttons_state);
+	}
+}
+*/
+/*
+#include	"buttons.h"
+#include "displays.h"
+unsigned int counter;
+unsigned int buttons_state;
+unsigned int i;
+int main() {
+	*BUTTONS_CONTROL = 0xFFFFFFFF;
+	counter = 0;
+	while (1 == 1) {
+		resetDisplays();
+		displayNumber(counter);
+		while (*BUTTONS_DATA == 0);
+		for (i = 0; i < 20000; i++);
+		buttons_state = *BUTTONS_DATA;
+		if (buttons_state == UP)
+			counter++;
+		if (buttons_state == DOWN)
+			counter--;
+		while (*BUTTONS_DATA == buttons_state);
+		for (i = 0; i < 20000; i++);
+	}
+}*/
+
+/*#include "buttons.h"
+#include "displays.h"
+unsigned int counter;
+unsigned int buttons_state;
+unsigned int i;
+int main() {
+	*BUTTONS_CONTROL = 0xFFFFFFFF;
+	counter = 0;
+	while (1 == 1) {
+		resetDisplays();
+		displayNumber(counter);
+		while (*BUTTONS_DATA == 0);
+		for (i = 0; i < 20000; i++);
+		buttons_state = *BUTTONS_DATA;
+		if ((buttons_state & UP) == UP)
+			counter++;
+		if ((buttons_state & DOWN) == DOWN)
+			counter--;
+		while (*BUTTONS_DATA == buttons_state);
+		for (i = 0; i < 20000; i++);
+	}
+}
+*/
+
+/*#include "buttons.h"
+#include "displays.h"
+unsigned int counter;
+unsigned int buttons_state;
+unsigned int i;
+int main() {
+	*BUTTONS_CONTROL = 0xFFFFFFFF;
+	counter = 99999997;
+	while (1 == 1) {
+		resetDisplays();
+		displayNumber(counter);
+		while (*BUTTONS_DATA == 0);
+		for (i = 0; i < 20000; i++);
+		buttons_state = *BUTTONS_DATA;
+		if ((buttons_state & UP) == UP)
+			if(!(numberOfDigits(counter+1)==9))
+			{
+				counter++;
+			}
+		if ((buttons_state & DOWN) == DOWN)
+			if(counter != 0)
+			{
+				counter--;
+			}
+		while (*BUTTONS_DATA == buttons_state);
+		for (i = 0; i < 20000; i++);
+	}
+}
+*/
+
+/*#include "buttons.h"
+#include "displays.h"
+unsigned int counter;
+unsigned int buttons_state;
+unsigned int i;
+int main() {
+	*BUTTONS_CONTROL = 0xFFFFFFFF;
+	counter = 99999997;
+	displayNumber(counter);
+	while (1 == 1) {
+		while (*BUTTONS_DATA == 0);
+		for (i = 0; i < 20000; i++);
+		buttons_state = *BUTTONS_DATA;
+		if ((buttons_state & UP) == UP)
+			if(!(numberOfDigits(counter+1)==9))
+			{
+				counter++;
+			}
+		if ((buttons_state & DOWN) == DOWN)
+			if(counter != 0)
+			{
+				counter--;
+			}
+		resetDisplays();
+		displayNumber(counter);
+		while (*BUTTONS_DATA == buttons_state);
+		for (i = 0; i < 20000; i++);
+	}
+}
+*/
+
+/*#include "buttons.h"
+#include "displays.h"
+unsigned int counter;
+unsigned int buttons_state;
+unsigned int i;
+unsigned int pos;
+unsigned int previous_buttons_state;
+unsigned int action;
+int main() {
+	*BUTTONS_CONTROL = 0xFFFFFFFF;
+	counter = 0;
+	pos = 0;
+	resetDisplays();
+	displayNumber(0);
+	previous_buttons_state = 0;
+	while (1 == 1) {
+		while (*BUTTONS_DATA == 0) {
+			previous_buttons_state = 0;
+		}
+		for (i = 0; i < 20000; i++);
+		buttons_state = *BUTTONS_DATA;
+		if (previous_buttons_state < buttons_state) {
+			action = buttons_state ^ previous_buttons_state;
+			if ((action & UP) == UP && pos+numberOfDigits(counter+1) < 9) {
+				counter++;
+			}
+			if ((action & DOWN) == DOWN && counter != 0) {
+				counter--;
+			}
+			if ((action & LEFT) == LEFT && numberOfDigits(counter)+(pos+1) < 9) {
+				pos++;
+			}
+			if ((action & RIGHT) == RIGHT && pos != 0) {
+				pos--;
+			}
+			if ((action & MIDDLE) == MIDDLE) {
+				counter = 0;
+				pos = 0;
+			}
+		}
+		resetDisplays();
+		displayNumberAtIndex(pos, counter);
+		previous_buttons_state = buttons_state;
+
+		while (*BUTTONS_DATA == buttons_state);
+		for (i = 0; i < 20000; i++);
+	}
+}
+*/
+/*
+#include "address_mapping.h"
+void readSwitches_writeLed();
+int main() {
+	*SWITCHES_CONTROL = 0xFFFF;
+	*LED_CONTROL = 0;
+	while (1 == 1)
+		readSwitches_writeLed();
+}
+void readSwitches_writeLed() {
+	unsigned int temp;
+	temp = *SWITCHES_DATA;
+	*LED_DATA = temp;
+}
+*/
+/*
+#include "address_mapping.h"
+void readSwitches_writeLed();
+unsigned int readSwitches();
+void writeLed(unsigned int value);
+int main() {
+	*SWITCHES_CONTROL = 0xFFFF;
+	*LED_CONTROL = 0;
+	while (1 == 1)
+		readSwitches_writeLed();
+}
+void readSwitches_writeLed() {
+	unsigned int temp;
+	temp = readSwitches();
+	writeLed(temp);
+}
+unsigned int readSwitches() {
+	unsigned int temp;
+	temp = *SWITCHES_DATA;
+	return temp;
+}
+void writeLed(unsigned int value) {
+	*LED_DATA = value;
+}
+*/
+
+#include "address_mapping.h"
+void readSwitches_writeLed();
+unsigned int readSwitches();
+void writeLed(unsigned int value, unsigned int v1, unsigned int v2);
+int main() {
+	*SWITCHES_CONTROL = 0xFFFF;
+	*LED_CONTROL = 0;
+	while (1 == 1)
+		readSwitches_writeLed();
+}
+void readSwitches_writeLed() {
+	unsigned int temp;
+	temp = readSwitches();
+	writeLed(temp, temp + 1, temp + 2); //the i-th argument is temp+i
+}
+unsigned int readSwitches() {
+	unsigned int temp;
+	temp = *SWITCHES_DATA;
+	return temp;
+}
+void writeLed(unsigned int value, unsigned int v1, unsigned int v2) {
+	*LED_DATA = value;
+}

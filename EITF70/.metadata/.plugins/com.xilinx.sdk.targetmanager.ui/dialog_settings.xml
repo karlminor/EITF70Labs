@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="system_0_wrapper.bit" key="MicroBlazePlatform-bitFile"/>
+	<item value="Local" key="MicroBlazePlatform-target"/>
+	<item value="MicroBlazePlatform" key="programfpga.hwplatform"/>
+	<item value="Auto Detect" key="MicroBlazePlatform-device"/>
+	<item value="bootloop" key="MicroBlazePlatform-microblaze_0-initElf"/>
+	<item value="system_0_wrapper.mmi" key="MicroBlazePlatform-bmmFile"/>
+	<item value="false" key="MicroBlazePlatform-partial_bit"/>
+</section>

@@ -1,0 +1,637 @@
+10:24:12 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:24:14 INFO  : XSDB server has started successfully.
+10:26:46 INFO  : Project 'MicroBlazePlatform' created. You can now create BSPs and application projects targeting this hardware platform.
+10:39:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:39:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674761A" && level==0} -index 0' command is executed.
+10:39:38 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:41:19 INFO  : Processor reset is completed for microblaze_0
+10:44:56 INFO  : Processor reset is completed for microblaze_0
+10:45:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:46:01 INFO  : Processor reset is completed for microblaze_0
+10:46:47 INFO  : Processor reset is completed for microblaze_0
+10:56:31 INFO  : Processor reset is completed for microblaze_0
+11:08:14 INFO  : Processor reset is completed for microblaze_0
+11:12:21 INFO  : Processor reset is completed for microblaze_0
+11:16:18 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:22:22 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+08:22:25 INFO  : XSDB server has started successfully.
+08:22:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:22:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+08:22:59 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+08:23:40 INFO  : Processor reset is completed for microblaze_0
+08:30:22 INFO  : Processor reset is completed for microblaze_0
+08:31:52 INFO  : Processor reset is completed for microblaze_0
+08:32:31 INFO  : Processor reset is completed for microblaze_0
+08:32:59 INFO  : Processor reset is completed for microblaze_0
+08:37:13 INFO  : Processor reset is completed for microblaze_0
+08:38:50 INFO  : Processor reset is completed for microblaze_0
+08:47:31 INFO  : Processor reset is completed for microblaze_0
+08:48:12 INFO  : Processor reset is completed for microblaze_0
+08:48:26 INFO  : Processor reset is completed for microblaze_0
+08:54:27 INFO  : Processor reset is completed for microblaze_0
+08:57:34 INFO  : Processor reset is completed for microblaze_0
+08:59:34 INFO  : Processor reset is completed for microblaze_0
+09:01:35 INFO  : Processor reset is completed for microblaze_0
+09:04:11 INFO  : Processor reset is completed for microblaze_0
+09:04:32 INFO  : Processor reset is completed for microblaze_0
+09:05:01 INFO  : Processor reset is completed for microblaze_0
+09:05:31 INFO  : Processor reset is completed for microblaze_0
+09:08:01 INFO  : Processor reset is completed for microblaze_0
+09:11:19 INFO  : Processor reset is completed for microblaze_0
+09:12:07 INFO  : Processor reset is completed for microblaze_0
+09:13:52 INFO  : Processor reset is completed for microblaze_0
+09:14:22 INFO  : Processor reset is completed for microblaze_0
+09:14:40 INFO  : Processor reset is completed for microblaze_0
+09:17:05 INFO  : Processor reset is completed for microblaze_0
+09:22:56 INFO  : Processor reset is completed for microblaze_0
+09:23:54 INFO  : Processor reset is completed for microblaze_0
+09:25:11 INFO  : Processor reset is completed for microblaze_0
+09:25:50 INFO  : Processor reset is completed for microblaze_0
+09:28:17 INFO  : Processor reset is completed for microblaze_0
+09:28:58 INFO  : Processor reset is completed for microblaze_0
+09:51:48 INFO  : Processor reset is completed for microblaze_0
+09:52:13 INFO  : Processor reset is completed for microblaze_0
+09:53:39 INFO  : Processor reset is completed for microblaze_0
+09:54:19 INFO  : Processor reset is completed for microblaze_0
+09:58:35 INFO  : Processor reset is completed for microblaze_0
+09:59:11 INFO  : Processor reset is completed for microblaze_0
+10:00:52 INFO  : Processor reset is completed for microblaze_0
+10:02:35 INFO  : Processor reset is completed for microblaze_0
+10:04:23 INFO  : Processor reset is completed for microblaze_0
+10:10:04 INFO  : Processor reset is completed for microblaze_0
+10:13:11 INFO  : Processor reset is completed for microblaze_0
+10:13:22 INFO  : Processor reset is completed for microblaze_0
+10:28:11 INFO  : Processor reset is completed for microblaze_0
+10:29:46 INFO  : Processor reset is completed for microblaze_0
+10:31:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:31:11 INFO  : Processor reset is completed for microblaze_0
+10:33:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:33:06 INFO  : Processor reset is completed for microblaze_0
+10:35:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:35:05 INFO  : Processor reset is completed for microblaze_0
+10:37:57 INFO  : Processor reset is completed for microblaze_0
+10:42:44 INFO  : Processor reset is completed for microblaze_0
+10:43:13 INFO  : Processor reset is completed for microblaze_0
+10:44:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:44:22 INFO  : Processor reset is completed for microblaze_0
+10:44:22 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:44:23 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.startGDBServer(TM.java:842)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:708)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:44:54 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:44:56 INFO  : XSDB server has started successfully.
+10:45:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:45:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:45:29 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:46:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:46:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:46:44 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:46:57 INFO  : Processor reset is completed for microblaze_0
+10:49:38 INFO  : Processor reset is completed for microblaze_0
+10:52:08 INFO  : Processor reset is completed for microblaze_0
+10:52:22 INFO  : Processor reset is completed for microblaze_0
+10:55:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:55:24 INFO  : Processor reset is completed for microblaze_0
+10:56:31 INFO  : Processor reset is completed for microblaze_0
+10:59:04 INFO  : Processor reset is completed for microblaze_0
+10:59:37 INFO  : Processor reset is completed for microblaze_0
+11:10:45 INFO  : Processor reset is completed for microblaze_0
+11:14:25 INFO  : Processor reset is completed for microblaze_0
+11:16:20 INFO  : Processor reset is completed for microblaze_0
+11:17:44 INFO  : Processor reset is completed for microblaze_0
+11:46:02 INFO  : Processor reset is completed for microblaze_0
+11:47:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:47:03 INFO  : Processor reset is completed for microblaze_0
+11:53:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:11:13 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:11:17 INFO  : XSDB server has started successfully.
+10:11:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:11:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674764A" && level==0} -index 0' command is executed.
+10:11:48 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:12:50 INFO  : Processor reset is completed for microblaze_0
+10:14:38 INFO  : Processor reset is completed for microblaze_0
+10:15:00 INFO  : Processor reset is completed for microblaze_0
+10:15:28 INFO  : Processor reset is completed for microblaze_0
+11:13:19 INFO  : Processor reset is completed for microblaze_0
+11:14:12 INFO  : Processor reset is completed for microblaze_0
+11:36:19 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:36:34 INFO  : Processor reset is completed for microblaze_0
+11:39:59 INFO  : Processor reset is completed for microblaze_0
+11:40:51 INFO  : Processor reset is completed for microblaze_0
+11:45:24 INFO  : Processor reset is completed for microblaze_0
+11:46:31 INFO  : Processor reset is completed for microblaze_0
+11:47:03 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:47:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674764A" && level==0} -index 0' command is executed.
+11:47:32 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+11:47:48 INFO  : Processor reset is completed for microblaze_0
+11:49:50 INFO  : Processor reset is completed for microblaze_0
+11:50:43 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:51:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674764A" && level==0} -index 0' command is executed.
+11:51:13 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+11:51:22 INFO  : Processor reset is completed for microblaze_0
+11:52:49 INFO  : Processor reset is completed for microblaze_0
+11:54:11 INFO  : Processor reset is completed for microblaze_0
+11:56:57 INFO  : Processor reset is completed for microblaze_0
+11:58:04 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:33:21 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+08:33:24 INFO  : XSDB server has started successfully.
+08:34:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:35:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674765A" && level==0} -index 0' command is executed.
+08:35:02 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+08:39:19 INFO  : Processor reset is completed for microblaze_0
+09:00:33 INFO  : Processor reset is completed for microblaze_0
+09:14:07 INFO  : Processor reset is completed for microblaze_0
+09:18:42 INFO  : Processor reset is completed for microblaze_0
+09:58:03 INFO  : Processor reset is completed for microblaze_0
+10:01:45 INFO  : Processor reset is completed for microblaze_0
+10:05:50 INFO  : Processor reset is completed for microblaze_0
+10:10:40 INFO  : Processor reset is completed for microblaze_0
+10:11:03 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:11:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:11:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674765A" && level==0} -index 0' command is executed.
+10:11:43 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:11:50 INFO  : Processor reset is completed for microblaze_0
+10:24:46 INFO  : Processor reset is completed for microblaze_0
+10:56:24 INFO  : Processor reset is completed for microblaze_0
+10:57:17 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:57:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:57:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674765A" && level==0} -index 0' command is executed.
+10:57:54 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:57:59 INFO  : Processor reset is completed for microblaze_0
+11:13:36 INFO  : Processor reset is completed for microblaze_0
+11:19:08 INFO  : Processor reset is completed for microblaze_0
+11:22:20 INFO  : Processor reset is completed for microblaze_0
+11:23:19 INFO  : Processor reset is completed for microblaze_0
+11:31:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:24:49 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+08:24:52 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+08:24:52 INFO  : XSDB server has started successfully.
+08:24:53 ERROR : (XSDB Server)couldn't read file "C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl": no such file or directory
+
+08:27:14 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+08:27:17 INFO  : XSDB server has started successfully.
+08:27:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:27:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+08:27:43 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+08:40:17 INFO  : Processor reset is completed for microblaze_0
+08:42:18 INFO  : Processor reset is completed for microblaze_0
+08:44:02 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+08:44:04 INFO  : XSDB server has started successfully.
+08:44:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:44:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+08:44:44 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+08:45:01 INFO  : Processor reset is completed for microblaze_0
+09:15:28 INFO  : Processor reset is completed for microblaze_0
+09:15:45 INFO  : Processor reset is completed for microblaze_0
+09:18:30 INFO  : Processor reset is completed for microblaze_0
+09:21:25 INFO  : Processor reset is completed for microblaze_0
+09:22:59 INFO  : Processor reset is completed for microblaze_0
+09:24:05 INFO  : Processor reset is completed for microblaze_0
+09:27:10 INFO  : Processor reset is completed for microblaze_0
+09:27:34 INFO  : Processor reset is completed for microblaze_0
+09:27:57 INFO  : Processor reset is completed for microblaze_0
+09:28:37 INFO  : Processor reset is completed for microblaze_0
+09:32:27 INFO  : Processor reset is completed for microblaze_0
+09:32:48 INFO  : Processor reset is completed for microblaze_0
+09:34:17 INFO  : Processor reset is completed for microblaze_0
+09:34:40 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:34:55 INFO  : Processor reset is completed for microblaze_0
+09:35:17 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:35:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:35:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+09:35:44 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+09:35:50 INFO  : Processor reset is completed for microblaze_0
+09:38:53 INFO  : Processor reset is completed for microblaze_0
+09:39:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:40:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:40:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+09:40:26 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+09:40:35 INFO  : Processor reset is completed for microblaze_0
+09:41:06 INFO  : Processor reset is completed for microblaze_0
+09:42:27 INFO  : Processor reset is completed for microblaze_0
+09:43:02 INFO  : Processor reset is completed for microblaze_0
+09:43:24 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:43:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:43:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+09:43:54 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+09:44:00 INFO  : Processor reset is completed for microblaze_0
+09:44:41 INFO  : Processor reset is completed for microblaze_0
+09:45:03 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:45:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:45:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+09:45:34 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+09:45:51 INFO  : Processor reset is completed for microblaze_0
+09:46:54 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+09:46:56 INFO  : XSDB server has started successfully.
+09:48:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:48:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+09:48:30 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+09:48:51 INFO  : Processor reset is completed for microblaze_0
+09:51:18 INFO  : Processor reset is completed for microblaze_0
+09:52:27 INFO  : Processor reset is completed for microblaze_0
+09:52:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:52:37 INFO  : Processor reset is completed for microblaze_0
+09:52:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:52:44 INFO  : Processor reset is completed for microblaze_0
+09:53:10 INFO  : Processor reset is completed for microblaze_0
+09:54:16 INFO  : Processor reset is completed for microblaze_0
+09:58:17 INFO  : Processor reset is completed for microblaze_0
+09:58:44 INFO  : Processor reset is completed for microblaze_0
+09:59:06 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:59:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:59:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+09:59:43 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+09:59:54 INFO  : Processor reset is completed for microblaze_0
+10:00:51 INFO  : Processor reset is completed for microblaze_0
+10:01:38 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:01:40 INFO  : XSDB server has started successfully.
+10:02:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:02:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:02:08 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:02:18 INFO  : Processor reset is completed for microblaze_0
+10:03:21 INFO  : Processor reset is completed for microblaze_0
+10:04:15 INFO  : Processor reset is completed for microblaze_0
+10:05:37 INFO  : Processor reset is completed for microblaze_0
+10:06:08 INFO  : Processor reset is completed for microblaze_0
+10:06:37 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:06:39 INFO  : XSDB server has started successfully.
+10:07:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:07:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:07:18 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:07:43 INFO  : Processor reset is completed for microblaze_0
+10:08:28 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:08:31 INFO  : XSDB server has started successfully.
+10:08:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:08:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:09:01 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:10:17 INFO  : Processor reset is completed for microblaze_0
+10:11:26 INFO  : Processor reset is completed for microblaze_0
+10:11:47 INFO  : Processor reset is completed for microblaze_0
+10:12:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:12:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:12:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:12:52 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:13:07 INFO  : Processor reset is completed for microblaze_0
+10:13:53 INFO  : Processor reset is completed for microblaze_0
+10:14:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:14:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:14:53 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:15:13 INFO  : Processor reset is completed for microblaze_0
+10:15:47 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:15:49 INFO  : XSDB server has started successfully.
+10:16:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:16:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:16:16 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:25:15 INFO  : Processor reset is completed for microblaze_0
+10:25:29 INFO  : Processor reset is completed for microblaze_0
+10:25:42 INFO  : Processor reset is completed for microblaze_0
+10:26:47 INFO  : Processor reset is completed for microblaze_0
+10:27:38 INFO  : Processor reset is completed for microblaze_0
+10:28:45 INFO  : Processor reset is completed for microblaze_0
+10:30:39 INFO  : Processor reset is completed for microblaze_0
+10:31:00 INFO  : Processor reset is completed for microblaze_0
+10:31:23 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:31:41 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:31:43 INFO  : XSDB server has started successfully.
+10:33:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:33:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:33:17 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:33:32 INFO  : Processor reset is completed for microblaze_0
+10:33:55 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:34:14 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:34:16 INFO  : XSDB server has started successfully.
+10:35:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:35:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:35:26 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:35:55 INFO  : Processor reset is completed for microblaze_0
+10:36:48 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:37:19 INFO  : Processor reset is completed for microblaze_0
+10:37:47 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:37:49 INFO  : XSDB server has started successfully.
+10:38:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:38:19 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:38:50 INFO  : Processor reset is completed for microblaze_0
+10:40:21 INFO  : Processor reset is completed for microblaze_0
+10:40:46 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:40:48 INFO  : XSDB server has started successfully.
+10:41:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:41:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:41:25 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:41:42 INFO  : Processor reset is completed for microblaze_0
+10:42:05 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:42:27 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+10:42:30 INFO  : XSDB server has started successfully.
+10:43:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:43:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+10:43:14 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:43:39 INFO  : Processor reset is completed for microblaze_0
+11:02:27 INFO  : Processor reset is completed for microblaze_0
+11:05:10 INFO  : Processor reset is completed for microblaze_0
+11:07:10 INFO  : Processor reset is completed for microblaze_0
+11:07:32 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:08:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:08:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674750A" && level==0} -index 0' command is executed.
+11:08:05 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+11:09:08 INFO  : Processor reset is completed for microblaze_0
+11:11:42 INFO  : Processor reset is completed for microblaze_0
+11:17:49 INFO  : Processor reset is completed for microblaze_0
+11:18:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:19:04 INFO  : Processor reset is completed for microblaze_0
+11:20:34 INFO  : Processor reset is completed for microblaze_0
+11:21:09 INFO  : Processor reset is completed for microblaze_0
+11:22:37 INFO  : Processor reset is completed for microblaze_0
+11:27:29 INFO  : Processor reset is completed for microblaze_0
+11:31:10 INFO  : Processor reset is completed for microblaze_0
+11:31:37 INFO  : Processor reset is completed for microblaze_0
+11:32:13 INFO  : Processor reset is completed for microblaze_0
+11:39:48 INFO  : Processor reset is completed for microblaze_0
+11:43:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:43:14 INFO  : Processor reset is completed for microblaze_0
+11:44:38 INFO  : Processor reset is completed for microblaze_0
+11:44:41 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Warning:\nCannot insert breakpoint 3.\nError accessing memory address 0x588: (undocumented errno -1).\n.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:45:10 INFO  : Processor reset is completed for microblaze_0
+11:45:23 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Warning:\nCannot insert breakpoint 3.\nError accessing memory address 0x588: (undocumented errno -1).\nCannot insert breakpoint 2.\nError accessing memory address 0x610: (undocumented errno -1).\n.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:45:33 INFO  : Processor reset is completed for microblaze_0
+11:45:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Warning:\nCannot insert breakpoint 3.\nError accessing memory address 0x588: (undocumented errno -1).\nCannot insert breakpoint 2.\nError accessing memory address 0x610: (undocumented errno -1).\n.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:46:04 INFO  : Processor reset is completed for microblaze_0
+11:46:07 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Warning:\nCannot insert breakpoint 3.\nError accessing memory address 0x588: (undocumented errno -1).\nCannot insert breakpoint 2.\nError accessing memory address 0x610: (undocumented errno -1).\n.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:46:26 INFO  : Processor reset is completed for microblaze_0
+11:46:28 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Warning:\nCannot insert breakpoint 2.\nError accessing memory address 0x610: (undocumented errno -1).\n.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:46:37 INFO  : Processor reset is completed for microblaze_0
+11:48:31 INFO  : Processor reset is completed for microblaze_0
+11:48:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:49:04 INFO  : Processor reset is completed for microblaze_0
+11:53:39 INFO  : Processor reset is completed for microblaze_0
+11:54:31 INFO  : Processor reset is completed for microblaze_0
+11:57:19 INFO  : Processor reset is completed for microblaze_0
+11:59:10 INFO  : Processor reset is completed for microblaze_0
+11:59:58 INFO  : Processor reset is completed for microblaze_0
+12:00:52 INFO  : Processor reset is completed for microblaze_0
+12:01:34 INFO  : Processor reset is completed for microblaze_0
+12:03:32 INFO  : Processor reset is completed for microblaze_0
+12:04:23 INFO  : Processor reset is completed for microblaze_0
+12:09:47 INFO  : Processor reset is completed for microblaze_0
+12:11:49 INFO  : Processor reset is completed for microblaze_0
+12:12:42 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Target is not responding (timed out).
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+12:12:47 INFO  : Processor reset is completed for microblaze_0
+12:16:05 INFO  : Processor reset is completed for microblaze_0
+12:17:47 INFO  : Processor reset is completed for microblaze_0
+12:19:48 INFO  : Processor reset is completed for microblaze_0
+12:26:50 INFO  : Processor reset is completed for microblaze_0
+12:28:33 INFO  : Processor reset is completed for microblaze_0
+12:29:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:35:16 INFO  : Launching XSDB server: xsdb.bat -interactive H:\EITF70\Nexys4Labs\temp_xsdb_launch_script.tcl
+08:35:23 INFO  : XSDB server has started successfully.
+08:37:51 INFO  : Launching XSDB server: xsdb.bat -interactive H:\EITF70\Nexys4Labs\temp_xsdb_launch_script.tcl
+08:37:54 INFO  : XSDB server has started successfully.
+08:41:19 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+08:41:22 INFO  : XSDB server has started successfully.
+08:43:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:43:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674776A" && level==0} -index 0' command is executed.
+08:43:38 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+09:44:11 INFO  : Processor reset is completed for microblaze_0
+09:47:24 INFO  : Processor reset is completed for microblaze_0
+09:53:08 INFO  : Processor reset is completed for microblaze_0
+09:58:10 INFO  : Processor reset is completed for microblaze_0
+09:58:34 INFO  : Processor reset is completed for microblaze_0
+09:59:21 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+09:59:23 INFO  : XSDB server has started successfully.
+10:00:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:00:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274674776A" && level==0} -index 0' command is executed.
+10:00:07 INFO  : FPGA configured successfully with bitstream "C:/Users/cek11kmi/EITF70/MicroBlazePlatform/download.bit"
+10:00:20 INFO  : Processor reset is completed for microblaze_0
+11:04:59 INFO  : Processor reset is completed for microblaze_0
+11:05:56 INFO  : Processor reset is completed for microblaze_0
+11:07:21 INFO  : Processor reset is completed for microblaze_0
+11:07:34 INFO  : Processor reset is completed for microblaze_0
+11:10:29 INFO  : Processor reset is completed for microblaze_0
+11:12:28 INFO  : Processor reset is completed for microblaze_0
+11:12:45 INFO  : Processor reset is completed for microblaze_0
+11:13:17 INFO  : Processor reset is completed for microblaze_0
+11:20:02 INFO  : Processor reset is completed for microblaze_0
+11:37:57 INFO  : Processor reset is completed for microblaze_0
+11:38:41 INFO  : Processor reset is completed for microblaze_0
+11:39:16 INFO  : Processor reset is completed for microblaze_0
+11:39:33 INFO  : Processor reset is completed for microblaze_0
+11:39:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:41:19 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\cek11kmi\EITF70\temp_xsdb_launch_script.tcl
+11:41:21 INFO  : XSDB server has started successfully.

@@ -1,0 +1,3 @@
+extern void function();
+extern unsigned int number_of_ones(unsigned int* switches);
+extern unsigned int translateN(unsigned int* switch_data);
