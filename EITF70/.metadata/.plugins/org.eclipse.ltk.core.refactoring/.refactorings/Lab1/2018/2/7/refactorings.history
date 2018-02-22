@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Lab1/src/timer.c&apos; to &apos;timers.c&apos;" description="Rename resource &apos;timer.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/timer.c" name="timers.c" stamp="1518683692560" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Lab1/src/header.h&apos; to &apos;alarm_clock.h&apos;" description="Rename resource &apos;header.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/header.h" name="alarm_clock.h" stamp="1518687000321" updateReferences="true"/>
-</session>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Lab1/src/microBlaze.h&apos;" deleteContents="false" description="Delete resource &apos;Lab1/src/microBlaze.h&apos;" element1="/Lab1/src/microBlaze.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1518683874894"/>&#x0A;<refactoring comment="Delete resource &apos;Lab1/src/microBlaze&apos;" deleteContents="false" description="Delete resource &apos;Lab1/src/microBlaze&apos;" element1="/Lab1/src/microBlaze" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1518683890264"/>
-</session>

@@ -97,4 +97,10 @@ void timer1AlarmClockInterruptHandler() __attribute__((fast_interrupt));
  */
 void timer2AlarmClockInterruptHandler() __attribute__((fast_interrupt));
 
+void blink();
+
+void alarm();
+
+void snooze();
+
 #endif /* ALARM_CLOCK_H_ */
